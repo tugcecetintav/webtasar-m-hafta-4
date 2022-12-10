@@ -1,0 +1,36 @@
+
+.container{
+   /* display: inline-block;*/
+   display: inline-grid; /*blok elemanları satır içi (inline)yapar.*/
+}
+.container .box{
+
+    border: 1px solid #453c67;
+}
+.one{
+    background-color: #A5F1E9;
+}
+.two{
+background-color: coral;
+}
+.three{
+background-color: darksalmon;
+}
+.four{
+background-color: darkturquoise;
+}
+.five{
+background-color: lightgreen;
+}
+.six{
+background-color:#863A6F;
+}
+.seven{
+background-color:#65647C;
+}
+.eight{
+background-color: forestgreen;
+}
+.nine{
+background-color: chocolate;
+}
