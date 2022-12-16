@@ -1,0 +1,56 @@
+body{
+    background-color: blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+.container{
+    display: flex;
+    flex-direction: row; /* row: varsayılan değer column : alt alta reverese:sondan başa */ 
+    flex-wrap:wrap ; /*nowrap: varsayılan değer, wrap: sıkıştırmadan alt alta gelir*/
+    
+}
+.container div{
+    border: 1px dashed #540375;
+    padding: 7px;
+    color: aliceblue;
+    margin-right: 10px;
+}
+#div1{
+    background-color: #fb2575;
+}
+#div2{
+    background-color: #fed049;
+}
+#div3{
+    background-color: #ade792;
+}
+#div4{
+    background-color: #ade
+}
+#div5{
+  background-color: #f0ff45;
+}
+div:nth-child(5){ /* last child */ 
+    color: gray;
+}
+div:first-child{
+    color: rebeccapurple;
+}
+#div6{
+    background-color: tomato;
+}
+#div7{
+    background-color: violet;
+}
+#div8{
+    background-color: turquoise;
+}
+#div9{
+    background-color: slateblue;
+}
+div:nth-child(odd){ /* odd: tek , even:çift */ 
+    color:#2192FF;
+}
+div:nth-child(even){
+    color:darkgoldenrod
+}
